@@ -16,6 +16,6 @@ public class VeuNoturnoDecorator extends PersonagemDecorator {
 
     @Override
     public int getPoder() {
-        return Math.max(0, personagem.getPoder() + 5);
+        return Math.max(0, personagem.getPoder() + 10);
     }
 }
