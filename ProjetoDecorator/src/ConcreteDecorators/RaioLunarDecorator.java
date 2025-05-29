@@ -16,6 +16,6 @@ public class RaioLunarDecorator extends PersonagemDecorator {
 
     @Override
     public int getPoder() {
-        return Math.max(0, personagem.getPoder() + 10);
+        return Math.max(0, personagem.getPoder() + 15);
     }
 }
