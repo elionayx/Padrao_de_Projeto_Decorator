@@ -21,12 +21,10 @@ public class Main {
             elfo = new AlmaDragonicaDecorator(elfo);
             System.out.println(elfo.getDescricao() + "Poder:" + elfo.getPoder());
 
-            // testar decorator VeuNoturno
+            // adicionar decorator VeuNoturno
 
         } catch (IllegalArgumentException e) {
             System.err.println("ERRO: " + e.getMessage());
-        } catch (Exception e) {
-            System.err.println("Erro inesperado." + e.getMessage());
         }
     }
 }
